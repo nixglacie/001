@@ -1,0 +1,221 @@
+body {
+    background-image: url("../img/FlameLordBG.png"), url("../img/bg2.png");
+    background-position: top, center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: black;
+    height: 5000px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+div, h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,ul ,li, a, p{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+a:link ,a:visited ,a:hover , a:active {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    height: 80px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.navbar > li {
+    float: left;
+    margin-top: 15px;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navbar > li > a:hover {
+    color: rgb(255, 81, 0);
+    transition: 0.3s;
+}
+
+
+.navbar > li:nth-child(6), li:nth-child(7){
+    float: right;
+}
+
+.navbar > li:nth-child(1){
+    padding-top: 30px;
+    width: 40px;
+}
+
+
+.fa, .fab, .fad, .fal, .far, .fas {
+    line-height: 1;
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+
+.filler {
+    height: 800px;
+}
+
+.pics1 {
+    height: 700px;
+}
+.pics1 > .widepic > h1,
+.pics1 > .smolpic > h1,
+.pics1 > .longpic > h1 {
+    font-weight: 400;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+
+.pics1 > .widepic > h1 {
+    margin-bottom: -46px;
+    z-index: 2;
+    margin-right: 15px;
+    float: right;
+    position: relative;
+}
+.pics1 > .longpic > h1 {
+    z-index: 3;
+    float: right;
+    position: relative;
+    top: 600px;
+    margin-right: 15px;
+    margin-bottom: -46px;
+} 
+
+.pics1 > .smolpic > h1 {
+    margin-bottom: -46px;
+    z-index: 2;
+    float: right;
+    margin-right: 15px;
+    position: relative;
+}
+
+.pics1 > .widepic:nth-child(5) > h1 {
+    margin-bottom: -46px;
+    z-index: 2;
+    top: 250px;
+    margin-right: 15px;
+    float: right;
+    position: relative;
+}
+
+.pics1 > .smolpic:nth-child(4) > h1 {
+    margin-bottom: -46px;
+    z-index: 2;
+    float: left;
+    margin-left: 15px;
+    position: relative;
+}
+
+.pics1 > .widepic > img ,
+.pics1 > .longpic > img ,
+.pics1 > .smolpic > img {
+    z-index: -1;
+    position: apolute;
+}
+
+.pics1 > .widepic > h1:hover ,
+.pics1 > .longpic > h1:hover ,
+.pics1 > .smolpic > h1:hover  {
+    color:#ff0;
+    transition: 0.3s;
+}
+
+.widepic , .smolpic , .longpic {
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    height: 300px;
+    border-style: solid;
+    border-width: 5px;
+    border-color:  rgba(255, 81, 0, 1);
+    cursor: pointer;
+}
+
+.widepic{
+    width: 50%;
+    overflow: hidden;
+}
+.smolpic{
+    width: 20%;
+    overflow: hidden;
+}
+.longpic{
+    float: right;
+    width: 20%;
+    height: 650px;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+
+.b1parHolder1 {
+    width: 600px;
+    padding: 150px;
+    font-size: 30px;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+
+.block1 > img {
+    float: right;
+    margin-top: -650px;
+    margin-right: 100px;
+}
+
+.b1parHolder2 {
+    float: right;
+    width: 600px;
+    padding: 150px;
+    font-size: 30px;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+
+.block2 > img {
+    float: left;
+    margin-top: 100px;
+    margin-left: 200px;
+    
+}
+
+.b1parHolder3 {
+    float: left;
+    width: 600px;
+    padding: 150px;
+    padding-top: 250px;
+    font-size: 30px;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px rgb(0, 255, 255), 0 -10px 20px #00b7ff, 0 -18px 40px rgb(0, 60, 255);
+}
+
+.block3 > img {
+    float: right;
+    width: 496px;
+    margin-top: 200px;
+    margin-right: 200px;
+}
+
+.footer {
+    padding: 100px;
+    clear:both;
+}
+
+.footer > img {
+    margin-top: 25px;
+    margin-left: 570px;
+    box-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+.footer > h1 {
+    text-align: center;
+    margin-top: 500px;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
